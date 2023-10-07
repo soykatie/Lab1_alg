@@ -37,7 +37,7 @@ namespace Lab1_Ukleiko
 
                                 int[][] arrs1 = BasicMethods.GenerateRandArrs(N1, R1, M1);
 
-                                Console.WriteLine("\nSorce arrays: ");
+                                Console.WriteLine("\nSource arrays: ");
                                 BasicMethods.Print(arrs1);
 
                                 HybridSortTask1.HybridSort1(arrs1);
@@ -66,7 +66,7 @@ namespace Lab1_Ukleiko
 
                                 int[][] arrs2 = BasicMethods.GenerateRandArrs(N2, R2, M2);
 
-                                Console.WriteLine("\nSorce arrays: ");
+                                Console.WriteLine("\nSource arrays: ");
                                 BasicMethods.Print(arrs2);
 
                                 HybridSortTask2.HybridSort2(arrs2);
